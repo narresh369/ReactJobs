@@ -2,13 +2,18 @@ import { useState, useEffect } from 'react';
 import JobListing from './JobListing';
 import Spinner from './Spinner';
 
+const apiUrl1 = import.meta.env.VITE_API_URL;
+console.log('apiUrl1 :: ' + apiUrl1);
+console.log('apiUrl1 :: ' + apiUrl1);
+
 const JobListings = ({ isHome = false }) => {
   const [jobs, setJobs] = useState([]);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     const fetchJobs = async () => {
-      const apiUrl = isHome ? '/api/jobs?_limit=3' : '/api/jobs';
+      //const apiUrl = isHome ? '/api/jobs?_limit=3' : '/api/jobs';
+      const apiUrl = isHome ? `${apiUrl1}/jobs?_limit=3` : `${apiUrl1}/jobs`;
       try {
         const res = await fetch(apiUrl);
         const data = await res.json();

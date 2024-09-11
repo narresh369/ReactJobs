@@ -14,6 +14,7 @@ import EditJobPage from './pages/EditJobPage';
 
 const apiUrl = import.meta.env.VITE_API_URL;
 
+console.log('apiUrl :: '+apiUrl);
 
 const App = () => {
   // Add New Job
