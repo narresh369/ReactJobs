@@ -2,7 +2,9 @@ import { useState, useEffect } from 'react';
 import JobListing from './JobListing';
 import Spinner from './Spinner';
 
-const apiUrl1 = import.meta.env.VITE_API_URL;
+//const apiUrl1 = import.meta.env.VITE_API_URL;
+const apiUrl1 = import.meta.env.VITE_API_URL || 'https://reactjobs.onrender.com';
+
 console.log('apiUrl1 :: ' + apiUrl1);
 console.log('apiUrl1 :: ' + apiUrl1);
 

@@ -12,7 +12,9 @@ import JobPage, { jobLoader } from './pages/JobPage';
 import AddJobPage from './pages/AddJobPage';
 import EditJobPage from './pages/EditJobPage';
 
-const apiUrl = import.meta.env.VITE_API_URL;
+//const apiUrl = import.meta.env.VITE_API_URL;
+const apiUrl = import.meta.env.VITE_API_URL || 'https://reactjobs.onrender.com';
+
 
 console.log('apiUrl :: '+apiUrl);
 

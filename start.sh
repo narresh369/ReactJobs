@@ -1,11 +1,10 @@
-# Start JSON Server on port 8000 (if needed for API testing or development)
+#!/bin/bash
+
+# Start JSON Server on port 8000
 npm run server &
 
 # Build the React application
-npm run build &
+npm run build
 
 # Serve the production build
- npx serve -s dist
-# npx serve -s dist -l ${PORT:-10000}
-
-
+npx serve -s dist
