@@ -5,7 +5,7 @@ npm run server &
 npm run build
 
 # Serve the production build
- # npx serve -s dist
-npx serve -s dist -l ${PORT:-10000}
+ npx serve -s dist
+# npx serve -s dist -l ${PORT:-10000}
 
 
