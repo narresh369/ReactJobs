@@ -7,4 +7,4 @@ npm run server &
 npm run build
 
 # Serve the production build
-npx serve -s build
+npx serve -s dist
