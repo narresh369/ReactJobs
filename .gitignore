@@ -72,7 +72,6 @@ yarn.lock
 
 # Static website build directory
 out/
-public/
 
 # Storybook files
 .storybook/
