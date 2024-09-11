@@ -2,11 +2,10 @@
 node_modules/
 
 # Production build
-build/
+
 
 # Dependency directories
 jspm_packages/
-dist/
 
 # Optional npm cache directory
 .npm/
