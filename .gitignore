@@ -91,7 +91,6 @@ out/
 .DS_Store
 
 # dotenv environment variable files
-.env
 .env.*.local
 
 # Debug files
