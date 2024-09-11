@@ -4,7 +4,7 @@
 npm run server &
 
 # Build the React application
-npm run build
+# npm run build
 
 # Serve the production build
 npx serve -s dist
