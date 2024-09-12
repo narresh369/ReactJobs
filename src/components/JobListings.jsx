@@ -5,7 +5,9 @@ import Spinner from './Spinner';
 //const apiUrl1 = import.meta.env.VITE_API_URL;
 //const apiUrl1 = import.meta.env.VITE_API_URL || 'https://reactjobs.onrender.com';
 //const apiUrl1 = import.meta.env.VITE_API_URL || 'http://localhost:8000';
-const apiUrl1 = import.meta.env.REACT_APP || 'http://localhost:8000';
+//const apiUrl1 = import.meta.env.REACT_APP || 'http://localhost:8000';
+const apiUrl1 = import.meta.env.REACT_APP || 'https://jsonserver-ozak.onrender.com';
+
 
 console.log('apiUrl1 REACT_APP:: ' + apiUrl1);
 console.log('apiUrl1 REACT_APP:: ' + apiUrl1);
