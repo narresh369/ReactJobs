@@ -113,7 +113,9 @@ const JobPage = ({ deleteJob }) => {
 };
 
 const jobLoader = async ({ params }) => {
-  const apiUrl = import.meta.env.VITE_API_URL;
+  //const apiUrl = import.meta.env.VITE_API_URL;
+  const apiUrl = import.meta.env.REACT_APP || 'https://jsonserver-ozak.onrender.com';
+
 
   console.log('apiUrl jobs page:: ' + apiUrl);
 
