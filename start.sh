@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Start JSON Server on port 8000 in the background
-npm run server &
+# npm run server &
 
 # Build the React app
 # npm run build
