@@ -7,4 +7,5 @@ npm run server &
 # npm run build
 
 # Serve the production build using 'npx serve'
-npx serve -s dist -l 3000
+# npx serve -s dist -l 3000
+node server.js
