@@ -1,12 +1,10 @@
 #!/bin/bash
 
-# Start JSON Server on port 8000
+# Start JSON Server on port 8000 in the background
 npm run server &
 
-# Build the React application
+# Build the React app
 # npm run build
 
-# Serve the production build
-# npx serve -s dist
-npm run preview
-
+# Serve the production build using 'npx serve'
+npx serve -s dist -l 3000
