@@ -8,6 +8,9 @@ const app = express();
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
+app.use(cors());
+
+
 // Serve static files from the dist directory
 app.use(express.static(path.join(__dirname, 'dist')));
 
@@ -17,7 +20,6 @@ app.get('*', (req, res) => {
 });
 
 const PORT = process.env.PORT || 10000; // Match this with Render's port configuration
-app.use(cors());
 app.listen(PORT, () => {
     console.log(`Server is running on port ${PORT}`);
 });
