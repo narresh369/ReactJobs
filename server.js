@@ -1,5 +1,6 @@
 // server.js
 import express from 'express';
+import cors from 'cors';
 import path from 'path';
 import { fileURLToPath } from 'url';
 
@@ -16,6 +17,7 @@ app.get('*', (req, res) => {
 });
 
 const PORT = process.env.PORT || 10000; // Match this with Render's port configuration
+app.use(cors());
 app.listen(PORT, () => {
     console.log(`Server is running on port ${PORT}`);
 });
