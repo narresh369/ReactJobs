@@ -15,7 +15,8 @@ import EditJobPage from './pages/EditJobPage';
 //const apiUrl = import.meta.env.VITE_API_URL;
 
 //const apiUrl = import.meta.env.VITE_API_URL || 'https://reactjobs.onrender.com';
-const apiUrl = import.meta.env.VITE_API_URL || 'http://localhost:8000';
+//const apiUrl = import.meta.env.VITE_API_URL || 'http://localhost:8000';
+const apiUrl = import.meta.env.REACT_APP || 'http://localhost:8000';
 
 
 console.log('apiUrl :: '+apiUrl);
