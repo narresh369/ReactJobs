@@ -1,18 +1,16 @@
+// server.js
 import express from 'express';
 import path from 'path';
 import { fileURLToPath } from 'url';
-import cors from 'cors'; // Import cors
 
 const app = express();
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-app.use(cors()); // Enable CORS for all origins
-
-// Serve static files from the 'dist' directory
+// Serve static files from the dist directory
 app.use(express.static(path.join(__dirname, 'dist')));
 
-// Serve the React app on any route
+// Handle all other routes by serving the index.html file
 app.get('*', (req, res) => {
     res.sendFile(path.join(__dirname, 'dist', 'index.html'));
 });

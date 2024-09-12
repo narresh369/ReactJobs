@@ -9,4 +9,5 @@ npm run server &
 # Serve the production build using 'npx serve'
 # npx serve -s dist -l 3000
 # node server.js
-npm run dev
+# npm run dev
+npm run start
