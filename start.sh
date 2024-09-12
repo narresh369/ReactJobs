@@ -8,5 +8,5 @@ npm run server &
 
 # Serve the production build
 # npx serve -s dist
-npx serve -s dist
+npm run preview
 
