@@ -16,7 +16,8 @@ import EditJobPage from './pages/EditJobPage';
 
 //const apiUrl = import.meta.env.VITE_API_URL || 'https://reactjobs.onrender.com';
 //const apiUrl = import.meta.env.VITE_API_URL || 'http://localhost:8000';
-const apiUrl = import.meta.env.REACT_APP || 'https://jsonserver-ozak.onrender.com';
+//const apiUrl = import.meta.env.REACT_APP || 'https://jsonserver-ozak.onrender.com';//FOR RENDER.COM DEPLOYMENT - dist FOLDER
+const apiUrl = 'https://jsonserver-ozak.onrender.com';//FOR FIREBASE DEPLOYMENT - dist FOLDER
 
 
 console.log('apiUrl :: '+apiUrl);

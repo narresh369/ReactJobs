@@ -1,0 +1,527 @@
+git init
+git add .
+git commit -m "Initial commit"
+
+
+https://github.com/login
+venkatdada369@gmail.com
+Narresh12578
+-------------------------------
+echo "# ReactJobs" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/narresh369/ReactJobs.git
+git push -u origin main
+---------------------------------
+git remote add origin https://github.com/your-username/your-repository.git
+git branch -M main
+git push -u origin main
+
+git remote add origin https://github.com/narresh369/ReactJobs.git
+git branch -M main
+git push -u origin main
+=======================================================================
+E:\Saicharan\REACT-JS-CRASH-COURSE\react-crash-2024-live>git push -u origin main
+fatal: credential-cache unavailable; no unix socket support
+To https://github.com/narresh369/ReactJobs.git
+ ! [rejected]        main -> main (non-fast-forward)
+error: failed to push some refs to 'https://github.com/narresh369/ReactJobs.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Integrate the remote changes (e.g.
+hint: 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+E:\Saicharan\REACT-JS-CRASH-COURSE\react-crash-2024-live>git fetch origin
+
+E:\Saicharan\REACT-JS-CRASH-COURSE\react-crash-2024-live>
+E:\Saicharan\REACT-JS-CRASH-COURSE\react-crash-2024-live>git merge origin/main
+fatal: refusing to merge unrelated histories
+
+E:\Saicharan\REACT-JS-CRASH-COURSE\react-crash-2024-live>git rebase origin/main
+warning: skipped previously applied commit 969742b
+hint: use --reapply-cherry-picks to include skipped commits
+hint: Disable this message with "git config advice.skippedCherryPicks false"
+Successfully rebased and updated refs/heads/main.
+
+E:\Saicharan\REACT-JS-CRASH-COURSE\react-crash-2024-live>git push -u origin main
+fatal: credential-cache unavailable; no unix socket support
+Everything up-to-date
+branch 'main' set up to track 'origin/main'.
+
+E:\Saicharan\REACT-JS-CRASH-COURSE\react-crash-2024-live>
+==================================================================================
+
+
+
+git remote set-url origin https://github.com/narresh369/ReactJobs.git
+git remote add origin https://github.com/narresh369/ReactJobs.git
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Uploading your React.js app to GitHub is a straightforward process. Here's a step-by-step guide:
+
+1. Initialize Git in Your Project
+If you haven't already initialized a Git repository in your React project, open your terminal or command prompt and navigate to your project directory.
+
+Run the following command to initialize Git:
+
+bash
+Copy code
+git init
+2. Add Your Files to Git
+Add all your project files to the Git repository:
+
+bash
+Copy code
+git add .
+This will stage all your files for the initial commit.
+
+3. Commit Your Changes
+Commit the added files with a message describing the commit:
+
+bash
+Copy code
+git commit -m "Initial commit"
+4. Create a New Repository on GitHub
+Go to GitHub and log in to your account.
+Click on the + icon in the top right corner and select New repository.
+Give your repository a name, add an optional description, and choose whether you want it to be public or private.
+Do not initialize the repository with a README, .gitignore, or license. (Since you've already initialized your repository locally, these can be added later.)
+5. Add the Remote Repository
+After creating the repository, GitHub will show you the commands to push your local repository to GitHub.
+
+Run the following commands in your terminal, replacing your-username and your-repository with your GitHub username and repository name:
+
+bash
+Copy code
+git remote add origin https://github.com/your-username/your-repository.git
+git branch -M main
+git push -u origin main
+6. Push Your Code to GitHub
+The above git push -u origin main command will push your local code to the main branch of your GitHub repository.
+7. Verify on GitHub
+Go back to your GitHub repository page and refresh. You should see all your React.js project files uploaded.
+Optional Steps
+Add a .gitignore File:
+
+It’s a good practice to add a .gitignore file to your project to avoid uploading unnecessary files like node_modules.
+Create a .gitignore file in your project root with the following content:
+bash
+Copy code
+node_modules/
+build/
+.env
+Stage and commit the .gitignore file:
+bash
+Copy code
+git add .gitignore
+git commit -m "Add .gitignore"
+git push origin main
+Add a README.md File:
+
+You can add a README.md file to describe your project.
+Create and commit the file in a similar way.
+Now your React.js app is successfully uploaded to GitHub!
+
+
+**********************************
+For Credential Manager (Windows):
+
+Open Control Panel > User Accounts > Credential Manager.
+Look for any credentials related to GitHub and remove them.
+
+**********************************
+
+https://reactjobs.onrender.com/
+
+
+E:\Saicharan\REACT-JS-CRASH-COURSE\react-crash-2024-live>git add .
+warning: in the working copy of 'start.sh', LF will be replaced by CRLF the next time Git touches it
+
+E:\Saicharan\REACT-JS-CRASH-COURSE\react-crash-2024-live>git commit -m "Your commit message describing the changes"
+[main 51cf651] Your commit message describing the changes
+ 4 files changed, 8 insertions(+), 1 deletion(-)
+ create mode 100644 public/screen.png
+ create mode 100644 public/vite.svg
+ create mode 100644 start.sh
+
+E:\Saicharan\REACT-JS-CRASH-COURSE\react-crash-2024-live>
+E:\Saicharan\REACT-JS-CRASH-COURSE\react-crash-2024-live>git push origin main
+fatal: credential-cache unavailable; no unix socket support
+To https://github.com/narresh369/ReactJobs.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/narresh369/ReactJobs.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+E:\Saicharan\REACT-JS-CRASH-COURSE\react-crash-2024-live>git rebase origin/main
+Current branch main is up to date.
+
+E:\Saicharan\REACT-JS-CRASH-COURSE\react-crash-2024-live>git push -u origin main
+fatal: credential-cache unavailable; no unix socket support
+To https://github.com/narresh369/ReactJobs.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/narresh369/ReactJobs.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+E:\Saicharan\REACT-JS-CRASH-COURSE\react-crash-2024-live>git pull
+remote: Enumerating objects: 4, done.
+remote: Counting objects: 100% (4/4), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+Unpacking objects: 100% (3/3), 981 bytes | 9.00 KiB/s, done.
+From https://github.com/narresh369/ReactJobs
+   1c149a4..10a962a  main       -> origin/main
+Merge made by the 'ort' strategy.
+
+E:\Saicharan\REACT-JS-CRASH-COURSE\react-crash-2024-live>git push -u origin main
+fatal: credential-cache unavailable; no unix socket support
+Enumerating objects: 11, done.
+Counting objects: 100% (10/10), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (7/7), done.
+Writing objects: 100% (7/7), 100.02 KiB | 12.50 MiB/s, done.
+Total 7 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/narresh369/ReactJobs.git
+   10a962a..bc0d356  main -> main
+branch 'main' set up to track 'origin/main'.
+
+E:\Saicharan\REACT-JS-CRASH-COURSE\react-crash-2024-live>
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+git add .
+git commit -m "Your commit 7"
+git push -u origin main
+
+E:\Saicharan\REACT-JS-CRASH-COURSE\react-crash-2024-live>git add .
+warning: in the working copy of 'start.sh', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'start copy.sh', LF will be replaced by CRLF the next time Git touches it
+
+E:\Saicharan\REACT-JS-CRASH-COURSE\react-crash-2024-live>git commit -m "Your commit 222"
+[main c027158] Your commit 222
+ 2 files changed, 13 insertions(+), 3 deletions(-)
+ create mode 100644 start copy.sh
+
+E:\Saicharan\REACT-JS-CRASH-COURSE\react-crash-2024-live>git push -u origin main
+fatal: credential-cache unavailable; no unix socket support
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 422 bytes | 211.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/narresh369/ReactJobs.git
+   bc0d356..c027158  main -> main
+branch 'main' set up to track 'origin/main'.
+
+E:\Saicharan\REACT-JS-CRASH-COURSE\react-crash-2024-live>
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+===============================================
+
+E:\Saicharan\REACT-JS-CRASH-COURSE\react-crash-2024-live>git init
+Initialized empty Git repository in E:/Saicharan/REACT-JS-CRASH-COURSE/react-crash-2024-live/.git/
+
+E:\Saicharan\REACT-JS-CRASH-COURSE\react-crash-2024-live>git add .
+warning: in the working copy of '.eslintrc.cjs', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'README.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '_theme_files/css/styles.css', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'package.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'postcss.config.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/App.jsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/Card.jsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/Hero.jsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/HomeCards.jsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/JobListing.jsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/JobListings.jsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/Navbar.jsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/Spinner.jsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/ViewAllJobs.jsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/index.css', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/jobs.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/layouts/MainLayout.jsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/main.jsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/pages/AddJobPage.jsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/pages/EditJobPage.jsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/pages/HomePage.jsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/pages/JobPage.jsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/pages/JobsPage.jsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/pages/NotFoundPage.jsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tailwind.config.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vite.config.js', LF will be replaced by CRLF the next time Git touches it
+
+E:\Saicharan\REACT-JS-CRASH-COURSE\react-crash-2024-live>git commit -m "Initial commit"
+[master (root-commit) a7494bd] Initial commit
+ 37 files changed, 3463 insertions(+)
+ create mode 100644 .eslintrc.cjs
+ create mode 100644 .gitignore
+ create mode 100644 README.md
+ create mode 100644 _theme_files/add-job.html
+ create mode 100644 _theme_files/css/styles.css
+ create mode 100644 _theme_files/favicon.ico
+ create mode 100644 _theme_files/images/logo.png
+ create mode 100644 _theme_files/index.html
+ create mode 100644 _theme_files/job.html
+ create mode 100644 _theme_files/jobs.html
+ create mode 100644 _theme_files/js/main.js
+ create mode 100644 _theme_files/not-found.html
+ create mode 100644 index.html
+ create mode 100644 package.json
+ create mode 100644 postcss.config.js
+ create mode 100644 src/App.jsx
+ create mode 100644 src/assets/images/logo.png
+ create mode 100644 src/components/Card.jsx
+ create mode 100644 src/components/Hero.jsx
+ create mode 100644 src/components/HomeCards.jsx
+ create mode 100644 src/components/JobListing.jsx
+ create mode 100644 src/components/JobListings.jsx
+ create mode 100644 src/components/Navbar.jsx
+ create mode 100644 src/components/Spinner.jsx
+ create mode 100644 src/components/ViewAllJobs.jsx
+ create mode 100644 src/index.css
+ create mode 100644 src/jobs.json
+ create mode 100644 src/layouts/MainLayout.jsx
+ create mode 100644 src/main.jsx
+ create mode 100644 src/pages/AddJobPage.jsx
+ create mode 100644 src/pages/EditJobPage.jsx
+ create mode 100644 src/pages/HomePage.jsx
+ create mode 100644 src/pages/JobPage.jsx
+ create mode 100644 src/pages/JobsPage.jsx
+ create mode 100644 src/pages/NotFoundPage.jsx
+ create mode 100644 tailwind.config.js
+ create mode 100644 vite.config.js
+
+E:\Saicharan\REACT-JS-CRASH-COURSE\react-crash-2024-live>
+
+========================================================================================================
+========================================================================================================
+
+E:\Saicharan\REACT-JS-CRASH-COURSE\react-crash-2024-live>git add .
+warning: in the working copy of 'start.sh', LF will be replaced by CRLF the next time Git touches it
+
+E:\Saicharan\REACT-JS-CRASH-COURSE\react-crash-2024-live>git commit -m "Your commit 13"
+[main c02010e] Your commit 13
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+
+E:\Saicharan\REACT-JS-CRASH-COURSE\react-crash-2024-live>git push -u origin main
+fatal: credential-cache unavailable; no unix socket support
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 322 bytes | 322.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/narresh369/ReactJobs.git
+   9acc333..c02010e  main -> main
+branch 'main' set up to track 'origin/main'.
+
+E:\Saicharan\REACT-JS-CRASH-COURSE\react-crash-2024-live>
+
+========================================================================================================
+========================================================================================================
+
+E:\Saicharan\REACT-JS-CRASH-COURSE\react-crash-2024-live>git add .
+warning: in the working copy of 'dist/assets/index-CzFPwJfe.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'dist/assets/index-cJmCOu_e.css', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'dist/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'start.sh', LF will be replaced by CRLF the next time Git touches it
+
+E:\Saicharan\REACT-JS-CRASH-COURSE\react-crash-2024-live>git commit -m "final try"
+[main c26a5cd] final try
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+E:\Saicharan\REACT-JS-CRASH-COURSE\react-crash-2024-live>git push origin main
+fatal: credential-cache unavailable; no unix socket support
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 312 bytes | 312.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/narresh369/ReactJobs.git
+   c02010e..c26a5cd  main -> main
+
+E:\Saicharan\REACT-JS-CRASH-COURSE\react-crash-2024-live>
+
+************************
+git add .
+git commit -m "comment"
+git push origin main
+************************
+
+E:\Saicharan\REACT-JS-CRASH-COURSE\react-crash-2024-live>npm i express
+
+added 55 packages, and audited 460 packages in 9s
+
+136 packages are looking for funding
+  run `npm fund` for details
+
+3 vulnerabilities (2 moderate, 1 high)
+
+To address all issues, run:
+  npm audit fix
+
+Run `npm audit` for details.
+
+E:\Saicharan\REACT-JS-CRASH-COURSE\react-crash-2024-live>
+
+npm install express
+
+import express from 'express';
+import path from 'path';
+import { fileURLToPath } from 'url';
+
+const app = express();
+
+// Resolve __dirname in ES module
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
+// Serve static files from the 'dist' directory
+app.use(express.static(path.join(__dirname, 'dist')));
+
+// Serve the React app on any route
+app.get('*', (req, res) => {
+  res.sendFile(path.join(__dirname, 'dist', 'index.html'));
+});
+
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, () => {
+  console.log(`Server is running on port ${PORT}`);
+});
+
+
+
+node server.js
+======================================================
+
+E:\Saicharan\REACT-JS-CRASH-COURSE\react-crash-2024-live>git add .
+warning: in the working copy of 'package.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'start.sh', LF will be replaced by CRLF the next time Git touches it
+
+E:\Saicharan\REACT-JS-CRASH-COURSE\react-crash-2024-live>git commit -m "thats it"
+[main c7f1742] thats it
+ 3 files changed, 19 insertions(+), 1 deletion(-)
+ create mode 100644 server.js
+
+E:\Saicharan\REACT-JS-CRASH-COURSE\react-crash-2024-live>git push origin main
+fatal: credential-cache unavailable; no unix socket support
+Enumerating objects: 8, done.
+Counting objects: 100% (8/8), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (5/5), 724 bytes | 724.00 KiB/s, done.
+Total 5 (delta 3), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+To https://github.com/narresh369/ReactJobs.git
+   a98fe84..c7f1742  main -> main
+
+E:\Saicharan\REACT-JS-CRASH-COURSE\react-crash-2024-live>
+
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Environment Variables
+REACT_APP
+https://jsonserver-ozak.onrender.com
+
+
+Settings
+Name : ReactJobs
+Repository : https://github.com/narresh369/ReactJobs
+Branch : main
+Build Command : npm install && npm run build
+Start Command : ./start.sh
+ 
+.env
+REACT_APP=https://jsonserver-ozak.onrender.com
+
+.env.production
+REACT_APP=https://jsonserver-ozak.onrender.com
+
+start.sh
+#!/bin/bash
+
+# Start JSON Server on port 8000 in the background
+# npm run server &
+
+# Build the React app
+# npm run build
+
+# Serve the production build using 'npx serve'
+# npx serve -s dist -l 3000
+# node server.js
+# npm run dev
+npm run start
+    "start": "node server.js"
+
+server.js
+// server.js
+import express from 'express';
+import cors from 'cors';
+import path from 'path';
+import { fileURLToPath } from 'url';
+
+const app = express();
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
+app.use(cors());
+
+
+// Serve static files from the dist directory
+app.use(express.static(path.join(__dirname, 'dist')));
+
+// Handle all other routes by serving the index.html file
+app.get('*', (req, res) => {
+    res.sendFile(path.join(__dirname, 'dist', 'index.html'));
+});
+
+const PORT = process.env.PORT || 10000; // Match this with Render's port configuration
+app.listen(PORT, () => {
+    console.log(`Server is running on port ${PORT}`);
+});
+
+
+vite.config.js
+
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  build: {
+    outDir: 'dist',
+  },
+});
+

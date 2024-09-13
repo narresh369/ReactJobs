@@ -1,0 +1,148 @@
+
+E:\>cd E:\Saicharan\REACT-JS-CRASH-COURSE\jsonserver
+
+E:\Saicharan\REACT-JS-CRASH-COURSE\jsonserver>npm init -y
+Wrote to E:\Saicharan\REACT-JS-CRASH-COURSE\jsonserver\package.json:
+
+{
+  "name": "jsonserver",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
+
+
+
+E:\Saicharan\REACT-JS-CRASH-COURSE\jsonserver>
+
+https://www.npmjs.com
+json-server
+OR
+google search
+json server npm
+https://www.npmjs.com/package/json-server
+
+npm i json-server --save-dev
+
+
+npx json-server db.json
+
+E:\Saicharan\REACT-JS-CRASH-COURSE\jsonserver>npm start
+
+> jsonserver@1.0.0 start
+> node index.js
+
+JSON Server is running 8000
+
+create a repository in github.com
+
+https://github.com/narresh369/jsonserver.git
+
+
+E:\Saicharan\REACT-JS-CRASH-COURSE\jsonserver>git init
+Initialized empty Git repository in E:/Saicharan/REACT-JS-CRASH-COURSE/jsonserver/.git/
+
+E:\Saicharan\REACT-JS-CRASH-COURSE\jsonserver>
+
+git remote add origin https://github.com/narresh369/jsonserver.git
+
+
+E:\Saicharan\REACT-JS-CRASH-COURSE\jsonserver>git remote add origin https://github.com/narresh369/jsonserver.git
+
+E:\Saicharan\REACT-JS-CRASH-COURSE\jsonserver>
+
+git add .
+git commit -m "added server"
+git push origin master
+
+E:\Saicharan\REACT-JS-CRASH-COURSE\jsonserver>git branch
+* master
+
+E:\Saicharan\REACT-JS-CRASH-COURSE\jsonserver>git push origin master
+fatal: credential-cache unavailable; no unix socket support
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (7/7), 38.93 KiB | 4.87 MiB/s, done.
+Total 7 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/narresh369/jsonserver.git
+ * [new branch]      master -> master
+
+
+
+
+
+
+
+
+
+
+
+
+E:\Saicharan\REACT-JS-CRASH-COURSE\jsonserver>code .
+
+E:\Saicharan\REACT-JS-CRASH-COURSE\jsonserver>npm i json-server --save-dev
+
+added 53 packages, and audited 54 packages in 10s
+
+15 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+E:\Saicharan\REACT-JS-CRASH-COURSE\jsonserver>
+
+
+Cloning from https://github.com/narresh369/jsonserver
+==> Checking out commit b05ee6465b3354c7ea6fb5ea8ceb8070d8dfcc47 in branch master
+==> Downloading cache...
+==> Transferred 57MB in 7s. Extraction took 2s.
+==> Using Node version 20.15.1 (default)
+==> Docs on specifying a Node version: https://render.com/docs/node-version
+==> Using Bun version 1.1.0 (default)
+==> Docs on specifying a bun version: https://render.com/docs/bun-version
+==> Running build command 'npm install'...
+up to date, audited 350 packages in 648ms
+115 packages are looking for funding
+  run `npm fund` for details
+found 0 vulnerabilities
+==> Uploading build...
+==> Build uploaded in 7s
+==> Build successful 🎉
+==> Deploying...
+==> Using Node version 20.15.1 (default)
+==> Docs on specifying a Node version: https://render.com/docs/node-version
+==> Using Bun version 1.1.0 (default)
+==> Docs on specifying a bun version: https://render.com/docs/bun-version
+==> Running 'node index.js'
+JSON Server is running 8000
+
+
+
+E:\Saicharan\REACT-JS-CRASH-COURSE\jsonserver>git add .
+
+E:\Saicharan\REACT-JS-CRASH-COURSE\jsonserver>git commit -m "added server now"
+[master 9f8fc47] added server now
+ 1 file changed, 102 insertions(+)
+ create mode 100644 db copy.json
+
+E:\Saicharan\REACT-JS-CRASH-COURSE\jsonserver>git push origin master
+fatal: credential-cache unavailable; no unix socket support
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 1.81 KiB | 1.81 MiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/narresh369/jsonserver.git
+   b05ee64..9f8fc47  master -> master
+
+E:\Saicharan\REACT-JS-CRASH-COURSE\jsonserver>

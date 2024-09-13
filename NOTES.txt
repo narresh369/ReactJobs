@@ -1,0 +1,44 @@
+https://www.youtube.com/watch?v=LDB4uaJ87e0
+
+https://github.com/bradtraversy/react-crash-2024
+
+E:\Saicharan\REACT-JS-CRASH-COURSE\react-crash-2024-main
+npm install
+
+FIRST CMD WINDOW
+npm run dev
+
+SECOND CMD WINDOW
+npm run server
+
+https://www.npmjs.com/package/react-toastify
+
+
+
+
+===============================================================
+
+E:\Saicharan\REACT-JS-CRASH-COURSE\react-crash-2024-main>npm install
+
+added 404 packages, and audited 405 packages in 1m
+
+133 packages are looking for funding
+  run `npm fund` for details
+
+3 vulnerabilities (2 moderate, 1 high)
+
+To address all issues, run:
+  npm audit fix
+
+Run `npm audit` for details.
+
+E:\Saicharan\REACT-JS-CRASH-COURSE\react-crash-2024-main>
+
+
+
+https://reactjobs.onrender.com
+http://localhost:8000
+
+VITE_API_URL
+http://localhost:8000
+VITE_API_URL=http://localhost:8000
